@@ -6,7 +6,7 @@ import loadable from 'react-loadable'
 const Loading = () => <div>Loading...</div>
 
 const Home = loadable({
-  loader: () => import('../routes/Home'),
+  loader: () => import('../containers/Home'),
   loading: Loading
 })
 

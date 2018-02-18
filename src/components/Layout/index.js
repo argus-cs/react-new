@@ -5,7 +5,6 @@ class Layout extends Component {
   render() {
     return(
       <div className={`${s.wrapper}`} >
-        <h2>teste</h2>
         {this.props.children}
       </div>
     )
